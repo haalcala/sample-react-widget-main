@@ -45,10 +45,15 @@ function App() {
       </HashRouter>
       <AdminMain />
       <UserMain />
+    <p>
+      Main app source: https://github.com/haalcala/sample-react-widget-main
+      Pluggable app source: https://github.com/haalcala/sample-react-widget
+    </p>
       <div
         id="my-widget-container"
         owner-data={ownerData}
         owner-handler={handleWidgetCall}
+        style={{border: "1px solid red"}}
       />
       <button onClick={handleClick}>
         Inc owner data (current value: {ownerData})
