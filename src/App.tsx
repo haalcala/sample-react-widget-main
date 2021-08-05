@@ -45,10 +45,10 @@ function App() {
       </HashRouter>
       <AdminMain />
       <UserMain />
-    <p>
+    <pre>
       Main app source: https://github.com/haalcala/sample-react-widget-main
       Pluggable app source: https://github.com/haalcala/sample-react-widget
-    </p>
+    </pre>
       <div
         id="my-widget-container"
         owner-data={ownerData}
